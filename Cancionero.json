@@ -1,0 +1,75 @@
+{
+    "artistas": [
+      {
+        "nombre": "Arcángel",
+        "apellido": "Puello",
+        "nombre_artista": "Arcángel",
+        "nacionalidad_id": "id_nacionalidad_arcangel"
+      },
+      {
+        "nombre": "Michael",
+        "apellido": "Jackson",
+        "nombre_artista": "Michael Jackson",
+        "nacionalidad_id": "id_nacionalidad_mj"
+      }
+    ],
+    "nacionalidades": [
+      {
+        "nacionalidad_id": "id_nacionalidad_arcangel",
+        "nombre_pais": "Puerto Rico"
+      },
+      {
+        "nacionalidad_id": "id_nacionalidad_mj",
+        "nombre_pais": "Estados Unidos"
+      }
+    ],
+    "albums": [
+      {
+        "nombre": "Los Favoritos",
+        "año": 2015,
+        "artista_id": "id_arcangel",
+        "genero_id": "id_reggaeton",
+        "canciones": [
+          {
+            "nombre": "Hace Mucho Tiempo",
+            "duracion": "3:45",
+            "tiempo": "4:30"
+          },
+          {
+            "nombre": "Pégate",
+            "duracion": "3:20",
+            "tiempo": "3:45"
+          }
+        ]
+      },
+      {
+        "nombre": "Thriller",
+        "año": 1982,
+        "artista_id": "id_michael_jackson",
+        "genero_id": "id_pop",
+        "canciones": [
+          {
+            "nombre": "Thriller",
+            "duracion": "5:57",
+            "tiempo": "6:01"
+          },
+          {
+            "nombre": "Billie Jean",
+            "duracion": "4:54",
+            "tiempo": "4:56"
+          }
+        ]
+      }
+    ],
+    "generos": [
+      {
+        "genero_id": "id_reggaeton",
+        "nombre": "Reggaeton"
+      },
+      {
+        "genero_id": "id_pop",
+        "nombre": "Pop"
+      }
+    ]
+  }
+  

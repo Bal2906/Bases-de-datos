@@ -1,0 +1,160 @@
+//POR ARTISTA
+{
+    "nombre": "Nombre del Artista",
+    "apellido": "Apellido del Artista",
+    "nombre_artista": "Nombre Artístico",
+    "nacionalidad": {
+        "nombre_pais": "País del Artista"
+    },
+    "albums": [
+        {
+            "nombre": "Nombre del Álbum",
+            "año": 2024,
+            "genero": {
+                "nombre": "Género del Álbum"
+            },
+            "canciones": [
+                {
+                    "nombre": "Nombre de la Canción",
+                    "duracion": "3:45",
+                    "tiempo": "Tiempo de la Canción"
+                },
+                {
+                    "nombre": "Nombre de la Canción 2",
+                    "duracion": "4:20",
+                    "tiempo": "Tiempo de la Canción 2"
+                }
+            ]
+        },
+        {
+            "nombre": "Nombre del Álbum 2",
+            "año": 2022,
+            "genero": {
+                "nombre": "Género del Álbum 2"
+            },
+            "canciones": [
+                {
+                    "nombre": "Nombre de la Canción 3",
+                    "duracion": "2:50",
+                    "tiempo": "Tiempo de la Canción 3"
+                }
+            ]
+        }
+    ]
+}
+
+// POR ALBUM
+{
+    "nombre": "Nombre del Álbum",
+    "año": 2024,
+    "artista": {
+        "nombre": "Nombre del Artista",
+        "apellido": "Apellido del Artista",
+        "nombre_artista": "Nombre Artístico",
+        "nacionalidad": {
+            "nombre_pais": "País del Artista"
+        }
+    },
+    "genero": {
+        "nombre": "Género del Álbum"
+    },
+    "canciones": [
+        {
+            "nombre": "Nombre de la Canción",
+            "duracion": "3:45",
+            "tiempo": "Tiempo de la Canción"
+        },
+        {
+            "nombre": "Nombre de la Canción 2",
+            "duracion": "4:20",
+            "tiempo": "Tiempo de la Canción 2"
+        }
+    ]
+}
+
+//POR GENERO
+{
+    "nombre": "Nombre del Género 2",
+    "albumes": [
+        {
+            "nombre": "Nombre del Álbum 3",
+            "año": 2021,
+            "artista": {
+                "nombre": "Nombre del Artista 3",
+                "apellido": "Apellido del Artista 3",
+                "nombre_artista": "Nombre Artístico 3",
+                "nacionalidad": {
+                    "nombre_pais": "País del Artista 3"
+                }
+            },
+            "canciones": [
+                {
+                    "nombre": "Nombre de la Canción 5",
+                    "duracion": "4:00",
+                    "tiempo": "Tiempo de la Canción 5"
+                }
+            ]
+        }
+    ]
+}
+
+
+//POR CANCION
+{
+    "nombre": "Nombre de la Canción 3",
+    "duracion": "2:50",
+    "tiempo": "Tiempo de la Canción 3",
+    "album": {
+        "nombre": "Nombre del Álbum 2",
+        "año": 2022,
+        "genero": {
+            "nombre": "Género del Álbum 2"
+        },
+        "artista": {
+            "nombre": "Nombre del Artista 2",
+            "apellido": "Apellido del Artista 2",
+            "nombre_artista": "Nombre Artístico 2",
+            "nacionalidad": {
+                "nombre_pais": "País del Artista 2"
+            }
+        }
+    }
+}
+
+//POR NACIONALIDAD
+{
+    "nombre_pais": "Nombre del País",
+    "artistas": [
+        {
+            "nombre": "Nombre del Artista",
+            "apellido": "Apellido del Artista",
+            "nombre_artista": "Nombre Artístico",
+            "albums": [
+                {
+                    "nombre": "Nombre del Álbum",
+                    "año": 2024,
+                    "genero": {
+                        "nombre": "Género del Álbum"
+                    },
+                    "canciones": [
+                        {
+                            "nombre": "Nombre de la Canción",
+                            "duracion": "3:45",
+                            "tiempo": "Tiempo de la Canción"
+                        },
+                        {
+                            "nombre": "Nombre de la Canción 2",
+                            "duracion": "4:20",
+                            "tiempo": "Tiempo de la Canción 2"
+                        }
+                    ]
+                }
+            ]
+        },
+    ]
+}
+
+
+
+
+/**/
